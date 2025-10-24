@@ -1,2 +1,3 @@
-const SERVER_URL="https://backend-projectfair-mgp9.onrender.com"
-export default SERVER_URL
+
+const SERVER_URL = import.meta.env.VITE_API_BASE_URL;
+export default SERVER_URL;
